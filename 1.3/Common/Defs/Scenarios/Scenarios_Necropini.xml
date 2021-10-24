@@ -3,7 +3,7 @@
 	<ScenarioDef>
 		<defName>NecropiniScenario</defName>
 		<label>Necropini Special Forces</label>
-		<description>Reccomended to play with no human or apini/azuri factions on a planet with low rainfall and high heat. Necropini are optimized for this playstyle.</description>
+		<description>Reccomended on a planet with low rainfall, high temperature and sparse population. Necropini are optimized for this playstyle.</description>
 		<scenario>
 			<summary>Start as a meat eating Apini special forces!</summary>
 			<playerFaction>
@@ -18,14 +18,19 @@
 				</li>
 				<!-- Player starting stuff spawn method-->
 				<li Class="ScenPart_PlayerPawnsArriveMethod">
-					<def>DropPods</def>
-					<method>Standing</method>
+					<def>PlayerPawnsArriveMethod</def>
+					<method>DropPods</method>
 				</li>
 				<!-- Player starting things -->
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>Silver</thingDef>
 					<count>200</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>WoodLog</thingDef>
+					<count>250</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
@@ -58,13 +63,32 @@
 					<thingDef>ApiniWax</thingDef>
 					<count>1000</count>
 				</li>
+				<!-- Scatter some things anywhere -->
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Filth_BloodApini</thingDef>
+					<allowRoofed>true</allowRoofed>
+					<count>700</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Filth_Blood</thingDef>
+					<allowRoofed>true</allowRoofed>
+					<count>500</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Meat_Apini</thingDef>
+					<allowRoofed>true</allowRoofed>
+					<count>600</count>
+				</li>
 				<!-- Game start dialog -->
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
 					<text>A new planet has been found ripe for terraforming. A primary and secondary force of Apini were sent in to establish a base from were full planetary terraformation can begin. 
-					Unfortunately both forces were wiped out. Instead of sending more Apini to die for nothing, it has been decided to send in the Apini special forces. The Death Bees. 
-					We shall succeed where our brothers have failed. We will build a colony on the bones of our fallen so that their sacrifice will not have been in vain. 
-					We are the Necropini! And this planet will soon belong to the bees!</text>
+					\nUnfortunately both forces were wiped out. Instead of sending more Apini to die for nothing, it has been decided to send in the Apini special forces. The Death Bees. 
+					\nWe shall succeed where our brothers have failed. We will build a colony on the bones of our fallen so that their sacrifice will not have been in vain. 
+					\nWe are the Necropini! And this planet will soon belong to the bees!</text>
 					<closeSound>GameStartSting</closeSound>
 				</li>
 			</parts>
