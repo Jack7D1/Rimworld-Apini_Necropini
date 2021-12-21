@@ -11,7 +11,10 @@
 		<li>
 			<packageId>sera.apinialienrace</packageId>
 			<displayName>Apini Playable Race, Continued!</displayName>
-			<steamWorkshopUrl>steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+			</li><li><packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
 		</li>
 	</modDependencies>
 	<loadAfter>

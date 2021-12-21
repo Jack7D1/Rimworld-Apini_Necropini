@@ -79,7 +79,7 @@
 		<useQualityIncreasing>false</useQualityIncreasing>
 		<singleTimeIfNotQualityIncreasing>6</singleTimeIfNotQualityIncreasing>
 	</ItemProcessor.CombinationDef>
-	
+
 	<ThingDef ParentName="SpecialHoney">
 		<defName>MeatHoney</defName>
 		<label>meat honey</label>
