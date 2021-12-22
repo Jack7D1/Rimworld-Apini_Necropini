@@ -18,7 +18,7 @@
 		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
 		<defaultFactionType>TribeApini</defaultFactionType>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="NecropiniBasic">
 		<defName>NecropiniPawn</defName>
 		<labelMale>necropini drone</labelMale>
@@ -32,7 +32,7 @@
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>10~17</initialResistanceRange>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="NecropiniBasic">
 		<defName>NecropiniSoldier</defName>
 		<label>necropini soldier</label>
