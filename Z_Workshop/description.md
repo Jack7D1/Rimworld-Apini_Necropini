@@ -2,7 +2,7 @@ This is an addon to [url=https://steamcommunity.com/sharedfiles/filedetails/?id=
 
 [h1]Features:[/h1]
 [list]
-[*]Replaces your beloved Apini with meat eating counterparts!
+[*]Adds a meat eating variant to the beeliens!
 [*]MEAT HONEY
 [/list]
 
